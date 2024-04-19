@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const mongodb = require('mongodb');
 
 app.get('/server1', (req, res) => {
     res.send('Server Test1')
